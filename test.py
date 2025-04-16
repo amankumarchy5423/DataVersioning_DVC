@@ -12,6 +12,7 @@ employee_data = {
 }
 
 employee_data.add(("Aman", "MLEngineer", 2022))
+employee_data.add(("Aryan", "dataEngineer", 2022))
 
 df = pd.DataFrame(employee_data, columns=["Name", "Department", "Year"])
 
