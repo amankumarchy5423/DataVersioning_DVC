@@ -11,6 +11,8 @@ employee_data = {
     ("Eva", "HR", 2020)
 }
 
+employee_data.add(("Aman", "MLEngineer", 2022))
+
 df = pd.DataFrame(employee_data, columns=["Name", "Department", "Year"])
 
 data_dir = os.path.join(os.getcwd(), "data")
